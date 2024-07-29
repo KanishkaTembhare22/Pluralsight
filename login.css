@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* width: 100%;
+    height: auto; */
+    background-color: black;
+    display: flex;
+    color: white;
+}
+.left-part{
+    width: 60%;
+    height: 100vh;
+    background-image: url(./login-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.left-part h1{
+    color: aliceblue;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.left-part button{
+    color: aliceblue;
+    background-color: transparent;
+    border: 1px solid rgb(144, 135, 135);
+    margin-top: 20px;
+    width: 40%;
+    height: 40px;
+    border-radius:5px ;
+}
+
+.right-part{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-part img{
+    width: 50%;
+
+}
+
+
+.right-part input{
+    background-color: transparent;
+    border: 1px solid gray;
+    width: 60%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.right-part button{
+    width: 60%;
+    height: 40px;
+    color: white;
+    background-color: #0074ab;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+.right-part .ctrbtn{
+    background-color: rgb(51, 50, 50);
+}
+
+.label-parent{
+    width: 60%;
+    height: auto;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.right-part a{
+
+    margin-block: 10px;
+    color:  #0074ab;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.right-part hr{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-color: grey;
+
+}
+.right-part p{
+    color: rgb(155, 154, 154);
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+.right-part span a{
+    font-size: 0.9em;
+    color: rgb(155, 154, 154);
+    border-bottom: 1px solid rgb(155, 154, 154);
+}
+
+
+        
+
+    
+@media (max-width:480px){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .right-part{
+    
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    .left-part{
+        display: none;
+        height: auto;
+    }
+    
+    .right-part a{
+        text-align: center;
+    }
+
+}
+
